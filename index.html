@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            Renee <span>Pintor</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="gradient-btn" href="#contact">Contact Me</a>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, it's <span>Renee</span></h1>
+            <h3>I'm a <span class="multiple-text"></span>
+            </h3>
+            <p>I design and build clean, user-focused websites and interfaces that bring ideas to life.
+            
+            <div class="social-icons">
+                <a href="https://www.facebook.com/renee.pintor">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+
+                <a href="https://github.com/Renee-P">
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+            
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="image.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="image.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I'm a Computer Science student studying at the University of San Carlos with a strong interest in web development and UI/UX design. I currently serve as a Creative Designer for Google Developer Groups on Campus - University of San Carlos (GDGoC-USC), where I contribute to visual content and branding. I enjoy turning ideas into clean, user-friendly design and am always eager to learn new tools and technologies.</p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+
+        <h2 class="heading">Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI / UX Design</h4>
+                    <p>I design intuitive and user-friendly interfaces using tools like Figma. I focus on user experience, accessibility, and responsive design, ensuring that applications are both functional and visually appealing.</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Web Development</h4>
+                    <p>Skilled in front-end technologies like HTML, CSS, JavaScript, and have dabbled in frameworks such as React. I also have experience in backend development. I build responsive and efficient web applications with clean, maintainable code.</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <i class='bx bx-pen'></i> 
+                    <h4>Graphic Design</h4>
+                    <p>Experienced in creating digital graphics, social media assets, and brand visuals using tools like Canva and Adobe Illustrator. Currently the Creative Designer at GDGoC-USC.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+            <div class="project-card">
+                <img src="recipeasy.png" alt="">
+
+                <h3>RecipEasy</h3>
+                <p>A full-stack web app that helps users discover recipes based on available ingredients and dietary needs. I developed the front-end using React and built a Node.js/Express backend with a MySQL database to power real-time search and filtering.</p>
+                <a href="https://github.com/Renee-P/RecipEasy" class="btn">View Project</a>
+            </div>
+
+
+            <div class="project-card">
+                <img src="snoozz.png" alt="">
+
+                <h3>SnoozZ</h3>
+                <p>A mobile app prototype focused on sleep tracking and productivity enhancement. Designed in Figma, this project explored user-friendly UI for scheduling, routine tracking, and sleep tracking and insights.</p>
+                <a href="https://www.figma.com/proto/yRcOp90edcDzs2229l8YN4/2205-Final-Application-Prototype?node-id=3-2&p=f&t=HxgxUWIo189cTVfl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=70%3A36&show-proto-sidebar=1" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="solevibe.png" alt="">
+
+                <h3>SoleVibe</h3>
+                <p>An e-commerce website built for a curated shoe brand using the WAMP stack (Windows, Apache, MySQL, PHP). I focused on developing a streamlined shopping experience while practicing Agile methodologies and writing thorough documentation.</p>
+                <a href="https://github.com/JursLJP/SoleVibe" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="kalinga.png" alt="">
+
+                <h3>KalingaKapwa</h3>
+                <p>A social impact platform developed with the WAMP stack, enabling users to donate, volunteer, and support advocacy causes across the Philippines. I contributed to both front-end and back-end development, focusing on user workflows and accessibility.</p>
+                <a href="https://github.com/Renee-P/KalingaKapwa" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="workeasy.png" alt="">
+
+                <h3>WorkEasy</h3>
+                <p>A customizable task and project management platform designed for individuals and teams of all sizes. Features include task tracking and team collaboration. Focused on user-friendly UI and efficient backend structure, built with Next.js, Server Actions, React, Prisma, Tailwind, and MySQL.</p>
+                <a href="https://github.com/gellyrslls/WorkEasy" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="creative.png" alt="">
+
+                <h3>Creative Design Works</h3>
+                <p>A collection of visual design projects, including promotional materials and designs created for GDGoC-USC. Tools used: Canva, Adobe Illustrator, and ibisPaint.</p>
+                <a href="https://reneepintor.my.canva.site/" class="btn">View Portfolio</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <a href="mailto:reneerosary.pintor@gmail.com">
+                    <i class='bx bxs-envelope contact-icon' ></i>
+                    <p>reneerosary.pintor@gmail.com</p>
+                </a>
+            </div>
+            <div class="contact-info-container">
+                <a href="tel:+639678341167">
+                    <i class='bx bxs-phone-call contact-icon' ></i>
+                    <p>+639678341167</p>
+                </a>
+            </div>
+            <div class="contact-info-container">
+                <a href="https://www.facebook.com/renee.pintor">
+                    <i class='bx bxl-facebook contact-icon'></i>
+                    <p>facebook.com/renee.pintor</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/renee.pintor">
+                <i class="bx bxl-facebook"></i>
+            </a>
+
+            <a href="https://github.com/Renee-P">
+                <i class="bx bxl-github"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Renee Pintor | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
